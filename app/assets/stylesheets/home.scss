@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 /* top=====================   */
+
 .top-main{
   padding: 200px 0 100px;
   position: absolute;
@@ -13,8 +14,8 @@
   min-height: 100%;
   color: white;
   background-color: #3ecdc6;
-  background-repeat: repeat-y;
-  background-position: center 50%;
+  background-repeat: no-repeat;
+  background-position: center;
   background-image: url("/top.jpeg");
   background-size: cover;
 }
@@ -34,13 +35,13 @@
 /* about=====================   */
 .about-main{
   color: white;
-  padding: 100px;
+  padding: 180px 8px 0;
   background-color: #3ecdc6;
 }
 
 .about-main h2{
   font-size: 50px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.4
 }
 

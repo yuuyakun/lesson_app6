@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
+  get '/signup', to: 'users#new'
+  resources :users
+
   resources :microposts
 
   root 'home#top'
-  get 'home/top'
-  get 'home/about'
+  get '/',      to: 'home#top'
+  get '/about', to: 'home#about'
 
   resources :posts
   root 'posts#index'
